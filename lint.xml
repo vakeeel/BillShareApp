@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="Deprecated">
+        <ignore path="res\layout\addfriends.xml" />
+        <ignore path="res\layout\homepage_lv.xml" />
+        <ignore path="res\layout\loginpage.xml" />
+        <ignore path="res\layout\reportbills.xml" />
+        <ignore path="res\layout\reportbills_lv.xml" />
+        <ignore path="res\layout\reportpayments.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res\layout\reportbills.xml" />
+    </issue>
+</lint>

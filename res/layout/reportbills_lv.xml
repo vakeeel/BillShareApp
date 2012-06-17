@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/selectWhoParticipatedTVID"
+        android:layout_width="0dp"
+        android:layout_height="31dp"
+        android:layout_weight="0.99" />
+
+    <Button
+        android:id="@+id/addRemoveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="@string/toggleAddFriendToBill"
+        android:textSize="12dp" />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/regPageNameTF"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="38dp" 
+        android:hint="@string/regPageNameHint"/>
+
+    <EditText
+        android:id="@+id/regPageEmailTF"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_x="143dp"
+        android:layout_y="95dp"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/regPagePwdTF"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="155dp"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/regPageVerifyPwdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="241dp"
+        android:text="@string/regPageVerifyPwdTV"
+        android:textSize="17.5dp" />
+
+    <TextView
+        android:id="@+id/regPagePwdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="172dp"
+        android:text="@string/regPagePwdTV"
+        android:textSize="17.5dp" />
+
+    <TextView
+        android:id="@+id/regPageEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="0dp"
+        android:layout_y="102dp"
+        android:text="@string/regEmailAddress"
+        android:textSize="17.5dp" />
+
+    <TextView
+        android:id="@+id/regPageName"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_x="0dp"
+        android:layout_y="46dp"
+        android:text="@string/regNameLabel"
+        android:textSize="17.5dp" />
+
+    <EditText
+        android:id="@+id/regPageVerifyPwdTF"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="226dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/regPageIAgreeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="349dp"
+        android:text="@string/regPageIAgreeBtnText" />
+
+</AbsoluteLayout>

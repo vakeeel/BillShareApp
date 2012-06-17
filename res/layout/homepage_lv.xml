@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@id/homePageFriendsTVID"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="21dp"/>
+
+    <TextView
+        android:id="@id/homePageOwesYouId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="23dp"/>
+
+    <TextView
+        android:id="@id/homePageYouOweID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="244dp"
+        android:layout_y="22dp"/>
+
+</AbsoluteLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/addFreindsEmailIDTFID"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_x="73dp"
+        android:layout_y="49dp"
+        android:hint="@string/enterEmailIDAddFriend"
+        android:inputType="textEmailAddress" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="125dp"
+        android:layout_height="34dp"
+        android:layout_x="116dp"
+        android:layout_y="9dp"
+        android:text="@string/addFriendsTVString" />
+
+    <Button
+        android:id="@+id/addFriendButtonID"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="126dp"
+        android:onClick="onClickingSave"
+        android:text="@string/addFriendButtonString" />
+
+</AbsoluteLayout>

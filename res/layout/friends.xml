@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/TableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/listViewNameTF"
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TableRow1" >
+
+        <TextView
+            android:id="@+id/listViewEmailTF"
+            android:layout_width="238dp"
+            android:layout_height="36dp"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/listViewBtn"
+        android:layout_width="61dp"
+        android:layout_height="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/TableRow2"
+        android:text="@string/listViewBtnName"
+        android:textSize="12dp" />
+
+</RelativeLayout>

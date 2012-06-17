@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TabbedActivityExampleActivity!</string>
+    <string name="app_name">BillShare</string>
+    <string name="frndsLabel">Manage Friends</string>
+    <string name="reportBillsLabel">Report Bills</string>
+    <string name="manageBillsLabel">Manage Bills</string>
+    <string name="goBtn">Go</string>
+    <string name="pwdLabel">Password</string>
+    <string name="userNameLabel">Username</string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="registerBtn">Register</string>
+    <string name="loginBtn">Login</string>
+    <string name="registrationDone">Done</string>
+    <string name="regNameLabel">Your Name</string>
+    <string name="regEmailAddress">Your Email</string>
+    <string name="regPagePwdTV">Password</string>
+    <string name="regPageVerifyPwdTV">Verify Password</string>
+    <string name="regPageIAgreeBtnText">Create My Account!</string>
+    <string name="regPageNameHint">Enter Name</string>
+    <string name="listViewBtnName">Delete</string>
+    <string name="friendsMenuLogOut">Log Out</string>
+    <string name="menuPendingReq">Add Friends</string>
+    <string name="homePageFriendsLabel">Friend</string>
+    <string name="homePageOwesYouTV">Owes You</string>
+    <string name="homePageYouOweTV">You Owe</string>
+    <string name="PickPersonReportBillsActivity">Pick A Person</string>
+    <string name="WhoPaidReportBillsActivity">Who Paid</string>
+    <string name="WhoParticipatedReportBills">" Who Participated"</string>
+    <string name="AmountPaidReportBillsActivity">Amount Paid</string>
+    <string name="DescriptionReportBillsActivity">Description</string>
+    <string name="toggleAddFriendToBill">Add</string>
+    <string name="toggleRemoveFriendFromBill">Remove</string>
+    <string name="sharedAmountLabelTVID">Each Persons Share</string>
+    <string name="dummyAmountValue">0</string>
+    <string name="menuViewBillsReport">Report Bill</string>
+    <string name="menuViewBillsReportPayment">Report Payment</string>
+    <string name="viewBillsGoHome">Home</string>
+    <string name="saveButtonStringReportBills">Save</string>
+    <string name="viewBillsBillAmountStringHeader">Bill Amount</string>
+    <string name="PickPersonWhomYouArePayingTo">PickPersonWhomYouArePayingTo</string>
+    <string name="WhomYouArePayingTo">Whom You Are Paying To</string>
+    <string name="AmountYouOwe">Amount You Owe</string>
+    <string name="AmountYouArePaying">Amount You Are Paying</string>
+    <string name="enterEmailIDAddFriend">Enter Email ID</string>
+    <string name="addFriendsTVString">Enter Email ID :</string>
+    <string name="addFriendButtonString">Add</string>
+    <string name="cancelButtonStringReportBill">Cancel</string>
+
+</resources>

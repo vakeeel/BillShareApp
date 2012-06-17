@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="107dp"
+        android:text="@string/userNameLabel"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="136dp"
+        android:layout_y="145dp"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/pwdTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="157dp"
+        android:text="@string/pwdLabel"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="360dp"
+        android:text=""
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_x="134dp"
+        android:layout_y="96dp"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_x="180dp"
+        android:layout_y="278dp"
+        android:onClick="onClickingRegister"
+        android:text="@string/registerBtn" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="280dp"
+        android:onClick="onClickingLogin"
+        android:text="@string/loginBtn" />
+
+</AbsoluteLayout>

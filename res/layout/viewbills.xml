@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/viewBillsLVID"
+        android:layout_width="match_parent"
+        android:layout_height="392dp"
+        android:layout_x="1dp"
+        android:layout_y="65dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/viewBillsDescriptionHeaderID"
+        android:layout_width="139dp"
+        android:layout_height="33dp"
+        android:layout_x="5dp"
+        android:layout_y="20dp"
+        android:text="@string/DescriptionReportBillsActivity" android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/viewBillsBillAMountHeaderID"
+        android:layout_width="121dp"
+        android:layout_height="33dp"
+        android:layout_x="195dp"
+        android:layout_y="19dp"
+        android:text="@string/viewBillsBillAmountStringHeader"
+        android:textSize="20dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/saveButtonReportingBillID"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="398dp"
+        android:onClick="saveReportBills"
+        android:text="@string/saveButtonStringReportBills"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/reportBillCancelButtonId"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="399dp"
+        android:onClick="onClickingCancel"
+        android:text="@string/cancelButtonStringReportBill"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/whoParticipatedListViewID"
+        android:layout_width="292dp"
+        android:layout_height="185dp"
+        android:layout_x="12dp"
+        android:layout_y="205dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/eachPersonsShareLabelID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="168dp"
+        android:text="@string/sharedAmountLabelTVID" />
+
+    <TextView
+        android:id="@+id/sharedAmountID"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="170dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="129dp"
+        android:text="@string/DescriptionReportBillsActivity" />
+
+    <EditText
+        android:id="@+id/Description"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_x="125dp"
+        android:layout_y="118dp" />
+
+    <EditText
+        android:id="@+id/AmountPaid"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_x="127dp"
+        android:layout_y="64dp"
+        android:text="@string/dummyAmountValue" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/SelectWhoPaidID"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_x="126dp"
+        android:layout_y="10dp"
+        android:prompt="@string/PickPersonReportBillsActivity" />
+
+    <TextView
+        android:id="@+id/WhoPaidID"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="26dp"
+        android:text="@string/WhoPaidReportBillsActivity" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="81dp"
+        android:text="@string/AmountPaidReportBillsActivity" />
+
+</AbsoluteLayout>

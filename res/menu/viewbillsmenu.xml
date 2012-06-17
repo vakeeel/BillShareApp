@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/viewBillsReportBill"
+        android:title="@string/menuViewBillsReport">
+    </item>
+    
+    <item
+        android:id="@+id/viewBillsReportPayment"
+        android:title="@string/menuViewBillsReportPayment">
+    </item>
+    
+    <item
+        android:id="@+id/viewBillsHomePageID"
+        android:title="@string/viewBillsGoHome">
+    </item>
+    
+    <item
+        android:id="@+id/viewBillsLogOut"
+        android:title="@string/friendsMenuLogOut">
+    </item>
+
+</menu>

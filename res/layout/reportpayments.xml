@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/AmountYouArePaying"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="176dp"
+        android:inputType="text">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="188dp"
+        android:text="@string/AmountYouArePaying" />
+
+    <Spinner
+        android:id="@+id/SelectWhomYourArePayingToID"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="99dp"
+        android:prompt="@string/PickPersonWhomYouArePayingTo" />
+
+    <TextView
+        android:id="@+id/WhomYouArePayingToID"
+        android:layout_width="216dp"
+        android:layout_height="31dp"
+        android:layout_x="77dp"
+        android:layout_y="41dp"
+        android:text="@string/WhomYouArePayingTo" />
+
+    <Button
+        android:id="@+id/savePayment"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_x="102dp"
+        android:layout_y="278dp"
+        android:onClick="savePayment"
+        android:text="@string/saveButtonStringReportBills"
+        android:textSize="15dp" />
+
+</AbsoluteLayout>

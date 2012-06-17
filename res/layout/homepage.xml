@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/homePageFriendsTVID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="14dp"
+        android:text="@string/homePageFriendsLabel"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/homePageOwesYouId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="14dp"
+        android:text="@string/homePageOwesYouTV"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/homePageYouOweID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="14dp"
+        android:text="@string/homePageYouOweTV"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/goBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="399dp"
+        android:text="@string/goBtn" />
+
+
+
+    <ListView
+        android:id="@+id/homePageListViewID"
+        android:layout_width="301dp"
+        android:layout_height="340dp"
+        android:layout_x="8dp"
+        android:layout_y="48dp" >
+
+    </ListView>
+
+</AbsoluteLayout>
